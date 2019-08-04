@@ -1,9 +1,11 @@
-# hydro-battery-charger
+# Hydro Battery Charger
 
 ## Description
 
-This is a [LibrePCB](https://librepcb.org) project!
-Just edit this file to add a description about it.
+This is a [LibrePCB](https://librepcb.org) project for a hydro power battery
+charger PCB, controlled by a STM32L0 microcontroller.
+
+![PCB Top](resources/pcb_top.png)
 
 ## License
 
