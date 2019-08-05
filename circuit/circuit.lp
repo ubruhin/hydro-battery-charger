@@ -1127,7 +1127,7 @@
   (lib_component ab344e7c-b740-4f2a-b21a-f7b1c433f990)
   (lib_variant ee92375f-b17d-4d79-84d9-4df2c4aed57a)
   (lib_device 9ac8e65e-83a7-42c7-9ebe-8017995828f3)
-  (name "J2") (value "Batterie")
+  (name "J2") (value "Battery")
   (signal 4b7490ca-af89-4dd9-beff-9edc631e7d9b (net dad7114d-4ad6-4cfd-ab3a-82c55208b86c))
   (signal 9e3c2d0e-7bc0-42e9-a562-f21ef061126a (net 7e02096c-2d78-4ae6-bc11-c61976545c1f))
  )
