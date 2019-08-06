@@ -1,0 +1,23 @@
+G04 --- HEADER BEGIN --- *
+%TF.GenerationSoftware,LibrePCB,LibrePCB,0.1.1-unstable*%
+%TF.CreationDate,2019-08-06T17:21:51*%
+%TF.ProjectId,Hydro Battery Charger - default,71762d7e-e7f1-403c-8020-db9670c01e9b,v2*%
+%TF.Part,Single*%
+%FSLAX66Y66*%
+%MOMM*%
+G01*
+G74*
+G04 --- HEADER END --- *
+G04 --- APERTURE LIST BEGIN --- *
+%ADD10C,0.001*%
+G04 --- APERTURE LIST END --- *
+G04 --- BOARD BEGIN --- *
+D10*
+X0Y0D02*
+X150000000Y0D01*
+X150000000Y60000000D01*
+X0Y60000000D01*
+X0Y0D01*
+G04 --- BOARD END --- *
+%TF.MD5,ecc98895189fb4126f648e9fa6c15b07*%
+M02*
