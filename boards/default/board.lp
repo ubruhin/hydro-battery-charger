@@ -29,10 +29,10 @@
   (soldermask_top (suffix ".topsoldermask.ger"))
   (soldermask_bot (suffix ".bottomsoldermask.ger"))
   (silkscreen_top (suffix ".topsilkscreen.ger")
-   (layers top_placement top_names top_values)
+   (layers top_placement top_names)
   )
   (silkscreen_bot (suffix ".bottomsilkscreen.ger")
-   (layers bot_placement bot_names bot_values)
+   (layers bot_placement bot_names)
   )
   (drills (merge false)
    (suffix_pth ".drills_pth.xln")
@@ -1500,12 +1500,6 @@
    (position 124.7775 21.986875) (size 0.7) (drill 0.3) (shape round)
   )
  )
- (netsegment 2dabd54e-e9d3-4080-83e7-26dda9daedea
-  (net bfc27774-05e5-4b59-a1e2-9d95e8d9d56f)
-  (via 084b0fac-a6f7-417a-afaa-ad4c3c9e0323
-   (position 48.641228 29.05125) (size 0.7) (drill 0.3) (shape round)
-  )
- )
  (netsegment 2db58eca-d5f5-4bc2-9b68-befa80afeebb
   (net bfc27774-05e5-4b59-a1e2-9d95e8d9d56f)
   (via adf8ec45-ab73-4df1-be8f-715359840192
@@ -1564,10 +1558,36 @@
    (to (via e9a30b7d-50b8-46b4-8573-0436e069982e))
   )
  )
+ (netsegment 2fba8924-495b-42e4-b17f-d228e818cebc
+  (net bfc27774-05e5-4b59-a1e2-9d95e8d9d56f)
+  (via 745b854a-083f-4c56-a360-63e6f758e4f0
+   (position 43.33875 29.5275) (size 0.7) (drill 0.3) (shape round)
+  )
+  (via b557621f-a41b-4944-bdb4-8d335125f01a
+   (position 44.45 29.5275) (size 0.7) (drill 0.3) (shape round)
+  )
+  (trace 2f31f399-3dd9-425d-9507-5fd05b7fee9c (layer top_cu) (width 0.8)
+   (from (via 745b854a-083f-4c56-a360-63e6f758e4f0))
+   (to (via b557621f-a41b-4944-bdb4-8d335125f01a))
+  )
+ )
  (netsegment 30edb4f9-3408-4f26-abe7-8708f888ad1d
   (net bfc27774-05e5-4b59-a1e2-9d95e8d9d56f)
   (via 7daef20e-838b-4980-af92-751f673bfab3
    (position 68.2625 2.2225) (size 1.0) (drill 0.5) (shape round)
+  )
+ )
+ (netsegment 3115f409-5e6c-4023-a8ab-06428ed0720a
+  (net bfc27774-05e5-4b59-a1e2-9d95e8d9d56f)
+  (via 2cc45b07-1bef-4340-9292-b54b011c70c5
+   (position 44.45 30.1625) (size 0.7) (drill 0.3) (shape round)
+  )
+  (via de8e6c5b-651c-4b89-864a-cf57f36b1a12
+   (position 43.33875 30.1625) (size 0.7) (drill 0.3) (shape round)
+  )
+  (trace 7d7ef5c4-a627-49b5-825f-0112f31bc208 (layer top_cu) (width 0.8)
+   (from (via de8e6c5b-651c-4b89-864a-cf57f36b1a12))
+   (to (via 2cc45b07-1bef-4340-9292-b54b011c70c5))
   )
  )
  (netsegment 33ec16b3-1a7c-4f73-a974-1ce09abff18b
@@ -1960,12 +1980,6 @@
    (position 112.7125 38.57625) (size 0.7) (drill 0.3) (shape round)
   )
  )
- (netsegment 4ec966e7-58e9-4ba5-95c6-e62f3d79f98f
-  (net bfc27774-05e5-4b59-a1e2-9d95e8d9d56f)
-  (via 1ea347dc-3c87-4183-b97a-351d176bd4ab
-   (position 43.243728 30.48) (size 0.7) (drill 0.3) (shape round)
-  )
- )
  (netsegment 506474ee-97b8-4135-930a-eebe9d8d93d5
   (net a1ea2b10-6745-4880-8b54-a082338b7f52)
   (junction 12f56bd3-d9ae-4f24-9219-529fe0ca7101 (position 144.145 33.795))
@@ -2137,12 +2151,6 @@
   (net bfc27774-05e5-4b59-a1e2-9d95e8d9d56f)
   (via 68ffdcdf-3d5d-4163-a2be-4bb00570f0ae
    (position 102.87 24.4475) (size 1.0) (drill 0.5) (shape round)
-  )
- )
- (netsegment 5c84b555-7bc3-4a5c-ac7b-05282d152fa0
-  (net bfc27774-05e5-4b59-a1e2-9d95e8d9d56f)
-  (via 6ab48b8a-a0bf-4aaf-ab5b-5e1576bef3ba
-   (position 44.354978 30.48) (size 0.7) (drill 0.3) (shape round)
   )
  )
  (netsegment 5e82ceeb-a2ee-45d8-a86f-a9d7ddbc77a5
@@ -2577,10 +2585,17 @@
    (position 123.5075 14.9225) (size 1.0) (drill 0.5) (shape round)
   )
  )
- (netsegment 6a7f56ec-2fac-4c31-b8d6-f9d96361bad7
+ (netsegment 69055e38-d80e-452e-8bc3-0c553d668f72
   (net bfc27774-05e5-4b59-a1e2-9d95e8d9d56f)
-  (via 70224640-2e10-4936-a10f-332a8a9e17c8
-   (position 47.053728 28.8925) (size 0.7) (drill 0.3) (shape round)
+  (via 0853a13b-bd5f-46a9-9015-80a144c83537
+   (position 47.9425 30.1625) (size 0.7) (drill 0.3) (shape round)
+  )
+  (via 53e640e7-886c-4bb9-a864-28a910665348
+   (position 46.99 30.1625) (size 0.7) (drill 0.3) (shape round)
+  )
+  (trace fbebb02b-5887-4a55-8bc9-68f95da38a54 (layer top_cu) (width 0.8)
+   (from (via 53e640e7-886c-4bb9-a864-28a910665348))
+   (to (via 0853a13b-bd5f-46a9-9015-80a144c83537))
   )
  )
  (netsegment 6abbb2eb-ed60-4dfb-8bf8-c280afe49f7a
@@ -2666,6 +2681,19 @@
   (net bfc27774-05e5-4b59-a1e2-9d95e8d9d56f)
   (via ca0ea6df-261c-4f7e-a54a-dd9328bf9288
    (position 99.85375 19.20875) (size 1.0) (drill 0.5) (shape round)
+  )
+ )
+ (netsegment 6d8b1bf3-f706-48a4-bc7c-cba129c600c7
+  (net bfc27774-05e5-4b59-a1e2-9d95e8d9d56f)
+  (via 3310b130-c958-4da4-ae6b-537ddc78016c
+   (position 47.9425 29.5275) (size 0.7) (drill 0.3) (shape round)
+  )
+  (via 63411252-1797-4cf9-a576-a5b7a83defd5
+   (position 46.99 29.5275) (size 0.7) (drill 0.3) (shape round)
+  )
+  (trace ad3daa5d-50cd-4f0d-9bc6-36e136b3c135 (layer top_cu) (width 0.8)
+   (from (via 63411252-1797-4cf9-a576-a5b7a83defd5))
+   (to (via 3310b130-c958-4da4-ae6b-537ddc78016c))
   )
  )
  (netsegment 6f74a465-bcd1-43e9-a403-c87a4e13be91
@@ -2798,12 +2826,6 @@
    (position 57.705625 29.845) (size 1.0) (drill 0.5) (shape round)
   )
  )
- (netsegment 7ebf961d-51d2-4c0c-a255-d53e49da2a50
-  (net bfc27774-05e5-4b59-a1e2-9d95e8d9d56f)
-  (via afccbd3e-a696-403d-85c8-8558b6f37ea5
-   (position 48.641228 30.1625) (size 0.7) (drill 0.3) (shape round)
-  )
- )
  (netsegment 7ff4a854-e2c1-4d9d-91e8-7080effcc5b5
   (net bfc27774-05e5-4b59-a1e2-9d95e8d9d56f)
   (via 3dd0e995-6490-4690-bc6e-6583fb6f6711
@@ -2848,12 +2870,6 @@
   (net bfc27774-05e5-4b59-a1e2-9d95e8d9d56f)
   (via c48c2e35-9f9c-455e-87b0-25e189640b5d
    (position 28.2575 2.2225) (size 1.0) (drill 0.5) (shape round)
-  )
- )
- (netsegment 894fbf97-0c65-496e-8568-e7b21419b88e
-  (net bfc27774-05e5-4b59-a1e2-9d95e8d9d56f)
-  (via f404a49f-2d0d-4743-8222-f50df3d35793
-   (position 47.053728 30.48) (size 0.7) (drill 0.3) (shape round)
   )
  )
  (netsegment 89c25795-d4b7-438e-96ad-f3cba67899dc
@@ -2923,6 +2939,19 @@
   (trace c34baf7a-bc69-4498-96e4-0722bdcb124f (layer top_cu) (width 0.3)
    (from (device 7044bdfb-86db-4ffc-85d5-80652f615f88) (pad ad768910-1573-409f-81d4-d4c7692ab494))
    (to (junction 1a36a714-ae82-4fa0-9c76-e53f1cc1125f))
+  )
+ )
+ (netsegment 926bf16f-9cf8-4c80-9c44-6e60288ff0ec
+  (net bfc27774-05e5-4b59-a1e2-9d95e8d9d56f)
+  (via 300be83e-d185-4635-baed-76676bf6cceb
+   (position 46.99 28.8925) (size 0.7) (drill 0.3) (shape round)
+  )
+  (via e9b2d79d-1be3-4b35-97b8-2edb657e8e50
+   (position 47.9425 28.8925) (size 0.7) (drill 0.3) (shape round)
+  )
+  (trace aed849b9-16be-4511-a9b8-818ca8228ec2 (layer top_cu) (width 0.8)
+   (from (via 300be83e-d185-4635-baed-76676bf6cceb))
+   (to (via e9b2d79d-1be3-4b35-97b8-2edb657e8e50))
   )
  )
  (netsegment 930dbac2-8d02-4db5-ada6-fb632f51ba35
@@ -3789,6 +3818,19 @@
    (position 94.9325 14.605) (size 1.0) (drill 0.5) (shape round)
   )
  )
+ (netsegment b6323668-10fc-420f-8a4f-385315d16f6a
+  (net bfc27774-05e5-4b59-a1e2-9d95e8d9d56f)
+  (via 4b8decbb-8cfa-4c46-829c-9739ba465def
+   (position 44.45 28.8925) (size 0.7) (drill 0.3) (shape round)
+  )
+  (via 570bc877-5a76-444a-8aeb-92c3884ab194
+   (position 43.33875 28.8925) (size 0.7) (drill 0.3) (shape round)
+  )
+  (trace 1c81c745-2e1f-4013-b616-889c41858873 (layer top_cu) (width 0.8)
+   (from (via 570bc877-5a76-444a-8aeb-92c3884ab194))
+   (to (via 4b8decbb-8cfa-4c46-829c-9739ba465def))
+  )
+ )
  (netsegment b65fb360-6c68-440a-b9c9-9f9036fc18bf
   (net bfc27774-05e5-4b59-a1e2-9d95e8d9d56f)
   (via d1f9eff7-c192-460a-9e18-2afe0d3340ee
@@ -4025,12 +4067,6 @@
   (net bfc27774-05e5-4b59-a1e2-9d95e8d9d56f)
   (via f2bd0cc4-a05b-476d-a900-b50c5eba086f
    (position 100.33 32.7025) (size 1.0) (drill 0.5) (shape round)
-  )
- )
- (netsegment c894c321-254a-4687-9cce-bbcfce613900
-  (net bfc27774-05e5-4b59-a1e2-9d95e8d9d56f)
-  (via 54e4d57e-150c-4b7f-b1b5-bf01185e773f
-   (position 44.354978 28.8925) (size 0.7) (drill 0.3) (shape round)
   )
  )
  (netsegment ca8e733b-43df-4780-857f-3fbb938b74b2
@@ -4583,12 +4619,6 @@
    (position 111.76 26.3525) (size 1.0) (drill 0.5) (shape round)
   )
  )
- (netsegment f6435eba-3d13-4459-90d4-43e8c46d5932
-  (net bfc27774-05e5-4b59-a1e2-9d95e8d9d56f)
-  (via 25add00f-940e-4eb3-96f1-5e0a3ea512ff
-   (position 43.243728 28.8925) (size 0.7) (drill 0.3) (shape round)
-  )
- )
  (netsegment f67fe5dd-d21f-42eb-b68d-793f7acb4a92
   (net bfc27774-05e5-4b59-a1e2-9d95e8d9d56f)
   (via 6a3c27dd-5d5c-4c17-a58d-3b914c0f945b
@@ -5055,15 +5085,6 @@
   (vertex (position 150.0 60.0) (angle 0.0))
   (vertex (position 0.0 60.0) (angle 0.0))
   (vertex (position 0.0 0.0) (angle 0.0))
- )
- (polygon 5c1bc37c-39f6-45de-aa99-d8e2debea90c (layer top_cu)
-  (width 0.0) (fill true) (grab_area true)
-  (vertex (position 42.70375 30.7975) (angle 0.0))
-  (vertex (position 42.70375 30.7975) (angle 0.0))
-  (vertex (position 48.2 30.7975) (angle 0.0))
-  (vertex (position 48.2 28.2575) (angle 0.0))
-  (vertex (position 42.70375 28.2575) (angle 0.0))
-  (vertex (position 42.70375 30.7975) (angle 0.0))
  )
 
  (stroke_text 0a8d7180-68e1-4749-bf8c-538b0d88f08c (layer top_placement)
