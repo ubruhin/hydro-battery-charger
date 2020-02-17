@@ -4949,9 +4949,9 @@
  (polygon 4ca23fae-a268-4449-bfb2-bf6c84b6ef8e (layer brd_outlines)
   (width 0.0) (fill false) (grab_area false)
   (vertex (position 0.0 0.0) (angle 0.0))
-  (vertex (position 150.0 0.0) (angle 0.0))
-  (vertex (position 150.0 60.0) (angle 0.0))
-  (vertex (position 0.0 60.0) (angle 0.0))
+  (vertex (position 120.0 0.0) (angle 0.0))
+  (vertex (position 120.0 100.0) (angle 0.0))
+  (vertex (position 0.0 100.0) (angle 0.0))
   (vertex (position 0.0 0.0) (angle 0.0))
  )
 
