@@ -1,0 +1,11 @@
+name: CI
+on: [push]
+jobs:
+  check:
+    runs-on: ubuntu-18.04
+    container:
+      image: librepcb/librepcb-cli:0.1.3
+      options: --entrypoint /bin/bash
+    steps:
+    - uses: actions/checkout@v1
+    - run: librepcb-cli open-project --erc --strict hydro-battery-charger.lpp
