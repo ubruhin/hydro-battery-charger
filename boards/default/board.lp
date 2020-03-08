@@ -34,7 +34,7 @@
   (silkscreen_bot (suffix ".gbo")
    (layers bot_placement bot_names)
   )
-  (drills (merge false)
+  (drills (merge true)
    (suffix_pth "_PTH.txt")
    (suffix_npth "_NPTH.txt")
    (suffix_merged ".txt")
