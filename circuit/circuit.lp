@@ -571,7 +571,7 @@
   (lib_variant 4503879d-9c02-46d6-bf1e-7a5023cc33a0)
   (lib_device 0a73e0e3-c4c9-4541-8ea9-edf5f1c989a8)
   (name "D5") (value "{{MPN or DEVICE}}")
-  (attribute "MPN" (type string) (unit none) (value "BAS64-04"))
+  (attribute "MPN" (type string) (unit none) (value "BAT64-04"))
   (signal 1eeae4c2-868c-45b9-b23e-d71be10176c7 (net bfc27774-05e5-4b59-a1e2-9d95e8d9d56f))
   (signal 48953648-5a67-42a1-8c57-f5e9c9fb06e0 (net dd645287-20a8-41a9-8f9a-d7b3589223e3))
   (signal ba379b38-8564-4888-b835-d178fb90ab96 (net 6ae18086-ca7c-4a0b-a5ca-0dfc222b5059))
