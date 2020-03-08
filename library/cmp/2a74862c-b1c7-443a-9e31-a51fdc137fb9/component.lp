@@ -5,7 +5,7 @@
  (author "U. Bruhin")
  (version "0.1")
  (created 2019-08-03T19:51:07Z)
- (deprecated false)
+ (deprecated true)
  (category 4a4e3c72-94fb-45f9-a6d8-122d2af16fb1)
  (schematic_only false)
  (default_value "{{PARTNUMBER}}")

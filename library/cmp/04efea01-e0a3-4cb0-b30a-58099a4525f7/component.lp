@@ -1,5 +1,5 @@
 (librepcb_component 04efea01-e0a3-4cb0-b30a-58099a4525f7
- (name "Pin Header 1x1")
+ (name "Pin Header 1x01")
  (description "A 1x1 male pin header.\n\nGenerated with librepcb-parts-generator (generate_connectors.py)")
  (keywords "connector, 1x1, pin header, male header")
  (author "Danilo B.")
