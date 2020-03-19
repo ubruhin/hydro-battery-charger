@@ -8,4 +8,4 @@ jobs:
       options: --entrypoint /bin/bash
     steps:
     - uses: actions/checkout@v1
-    - run: librepcb-cli open-project --erc --strict hydro-battery-charger.lpp
+    - run: librepcb-cli open-project --erc --strict pcb/hydro-battery-charger.lpp
