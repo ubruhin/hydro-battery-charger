@@ -342,7 +342,7 @@
   (lib_variant 8cd7b37f-e5fa-4af5-a8dd-d78830bba3af)
   (lib_device e80a2ba5-13dd-41f2-9cdc-f29e30a9e2ed)
   (name "C14") (value "{{CAPACITANCE}}")
-  (attribute "CAPACITANCE" (type capacitance) (unit nanofarad) (value "100"))
+  (attribute "CAPACITANCE" (type capacitance) (unit nanofarad) (value "1"))
   (signal 1c1c7abc-7b40-4f92-b533-f65604644db7 (net bfc27774-05e5-4b59-a1e2-9d95e8d9d56f))
   (signal 6d776f4d-2a7c-4128-a98a-dbb1dd861411 (net 6ae18086-ca7c-4a0b-a5ca-0dfc222b5059))
  )
