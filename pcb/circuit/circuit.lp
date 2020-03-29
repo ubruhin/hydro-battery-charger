@@ -543,7 +543,7 @@
   (lib_variant a5995314-f535-45d4-8bd8-2d0b8a0dc42a)
   (lib_device none)
   (name "R11") (value "{{RESISTANCE}}")
-  (attribute "RESISTANCE" (type resistance) (unit ohm) (value "680"))
+  (attribute "RESISTANCE" (type resistance) (unit kiloohm) (value "3.9"))
   (signal 3452d36e-1ce8-4b7c-8e5b-90c2e4929ed8 (net ee917aef-027d-4c51-b53e-52be166c1988))
   (signal ad623f98-9e73-49c3-9404-f7cfa99d17cd (net e1f3c26d-0cf6-41ea-a480-cf3864a84c26))
  )
