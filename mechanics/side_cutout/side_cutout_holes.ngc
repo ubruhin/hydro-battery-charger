@@ -1,0 +1,90 @@
+(Generated with: DXF2GCODE, Version: Py3.5.2 PyQt5.14.1, Date: $Date: Fri Oct 25 20:45:56 2019 +0200 $)
+(Created from file: side_cutout.dxf)
+(Output format description: G-CODE for LinuxCNC)
+(Time: Sun Mar 29 15:07:10 2020)
+G21 (Units in millimeters)
+G90 (Absolute programming)
+G64 (Default cutting) G17 (XY plane) G40 (Cancel radius comp.) G49 (Cancel length comp.)
+G0 Z  15.000
+
+(*** LAYER: holes ***)
+T1 M6
+S6000
+
+(* SHAPE Nr: 1 *)
+G0 X -51.192 Y  21.509
+M3 M8
+G42
+F200
+G1 X -51.192 Y  23.631
+G2 X -46.949 Y  23.631 I   2.121 J  -2.121
+G0 Z   3.000
+F100
+G1 Z  -5.000
+F200
+G2 X -49.071 Y  21.509 I  -1.061 J  -1.061
+G2 X -46.949 Y  23.631 I   1.061 J   1.061
+F100
+G1 Z   3.000
+G0 Z  20.000
+G40
+M9 M5
+
+(* SHAPE Nr: 2 *)
+G0 X  51.192 Y  23.631
+M3 M8
+G42
+F200
+G1 X  51.192 Y  21.509
+G2 X  46.949 Y  21.509 I  -2.121 J   2.121
+G0 Z   3.000
+F100
+G1 Z  -5.000
+F200
+G2 X  49.071 Y  23.631 I   1.061 J   1.061
+G2 X  46.949 Y  21.509 I  -1.061 J  -1.061
+F100
+G1 Z   3.000
+G0 Z  20.000
+G40
+M9 M5
+
+(* SHAPE Nr: 3 *)
+G0 X  51.192 Y -21.509
+M3 M8
+G42
+F200
+G1 X  51.192 Y -23.631
+G2 X  46.949 Y -23.631 I  -2.121 J   2.121
+G0 Z   3.000
+F100
+G1 Z  -5.000
+F200
+G2 X  49.071 Y -21.509 I   1.061 J   1.061
+G2 X  46.949 Y -23.631 I  -1.061 J  -1.061
+F100
+G1 Z   3.000
+G0 Z  20.000
+G40
+M9 M5
+
+(* SHAPE Nr: 4 *)
+G0 X -51.192 Y -23.631
+M3 M8
+G42
+F200
+G1 X -51.192 Y -21.509
+G2 X -46.949 Y -21.509 I   2.121 J  -2.121
+G0 Z   3.000
+F100
+G1 Z  -5.000
+F200
+G2 X -49.071 Y -23.631 I  -1.061 J  -1.061
+G2 X -46.949 Y -21.509 I   1.061 J   1.061
+F100
+G1 Z   3.000
+G0 Z  20.000
+G40
+M9 M5
+G0 X   0.000 Y   0.000
+M2 (Program end)
