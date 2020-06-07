@@ -396,6 +396,15 @@
   (signal 0b345c41-0429-47f3-917a-5140944c7755 (net bfc27774-05e5-4b59-a1e2-9d95e8d9d56f))
   (signal 78fc7eeb-dca2-40c7-9543-9444e527056e (net 227d99ba-5968-4f6f-80d3-c937d769551c))
  )
+ (component 22440cfc-94f5-4e31-b746-f51a1c0eafa2
+  (lib_component b4f7c396-e6e7-407c-9e91-44996137c332)
+  (lib_variant d039b47e-5575-4fe2-b42e-9431f103058b)
+  (lib_device none)
+  (name "D5") (value "{{ZENER_VOLTAGE}}")
+  (attribute "ZENER_VOLTAGE" (type voltage) (unit volt) (value "3.0"))
+  (signal be312176-0bda-48f5-b2ca-eda262a7cdad (net 6ae18086-ca7c-4a0b-a5ca-0dfc222b5059))
+  (signal e426246c-e943-4756-8039-ae424db9454a (net bfc27774-05e5-4b59-a1e2-9d95e8d9d56f))
+ )
  (component 2255e8c3-7185-4a7b-829f-52a26347ed44
   (lib_component 8076f6be-bfab-4fc1-9772-5d54465dd7e1)
   (lib_variant f09ad258-595b-4ee9-a1fc-910804a203ae)
@@ -513,13 +522,6 @@
   (signal 3452d36e-1ce8-4b7c-8e5b-90c2e4929ed8 (net bfc27774-05e5-4b59-a1e2-9d95e8d9d56f))
   (signal ad623f98-9e73-49c3-9404-f7cfa99d17cd (net 393f452b-1519-4d57-b760-fa93870d5c4b))
  )
- (component 3ed20f7b-5223-4dec-a84b-cc3574047b25
-  (lib_component 58c3c6cd-11eb-4557-aa3f-d3e05874afde)
-  (lib_variant afb86b45-68ec-47b6-8d96-153d73567228)
-  (lib_device none)
-  (name "VCC13") (value "3V3")
-  (signal 1d893320-f811-4a79-b64e-cc23d749d394 (net dd645287-20a8-41a9-8f9a-d7b3589223e3))
- )
  (component 3ed7c7bd-9887-4f24-a8db-22de5acd05d9
   (lib_component d167e0e3-6a92-4b76-b013-77b9c230e5f1)
   (lib_variant 8cd7b37f-e5fa-4af5-a8dd-d78830bba3af)
@@ -565,16 +567,6 @@
   (attribute "COLOR" (type string) (unit none) (value "Blue"))
   (signal 7b023430-b68f-403a-80b8-c7deb12e7a0c (net bfc27774-05e5-4b59-a1e2-9d95e8d9d56f))
   (signal f1467b5c-cc7d-44b4-8076-d729f35b3a6a (net ee917aef-027d-4c51-b53e-52be166c1988))
- )
- (component 4a7f5a65-1a55-42be-9818-9beb9c5e440a
-  (lib_component a4763181-79f0-4568-9212-bbc54e6f9aaa)
-  (lib_variant 4503879d-9c02-46d6-bf1e-7a5023cc33a0)
-  (lib_device 0a73e0e3-c4c9-4541-8ea9-edf5f1c989a8)
-  (name "D5") (value "{{MPN or DEVICE}}")
-  (attribute "MPN" (type string) (unit none) (value "BAT64-04"))
-  (signal 1eeae4c2-868c-45b9-b23e-d71be10176c7 (net bfc27774-05e5-4b59-a1e2-9d95e8d9d56f))
-  (signal 48953648-5a67-42a1-8c57-f5e9c9fb06e0 (net dd645287-20a8-41a9-8f9a-d7b3589223e3))
-  (signal ba379b38-8564-4888-b835-d178fb90ab96 (net 6ae18086-ca7c-4a0b-a5ca-0dfc222b5059))
  )
  (component 4b262d5c-7abb-4fcc-8d24-852d6b3e7713
   (lib_component 04efea01-e0a3-4cb0-b30a-58099a4525f7)
