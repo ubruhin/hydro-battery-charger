@@ -5,13 +5,12 @@ depth_total = 19.0;
 depth_top = 3.0;
 led_diameter = 3.3;
 button_diameter = 5.5;
-pot_diameter = 4.0;
 
 led1_pos = [-4,10];
 led2_pos = [-4,0];
 led3_pos = [-4,-10];
-button1_pos = [4,0];
-button2_pos = [4,-10];
+button1_pos = [4,5];
+button2_pos = [4,-5];
 pot_pos = [4,10];
 hole1_pos = [0,20];
 hole2_pos = [0,-20];
@@ -73,12 +72,6 @@ module button(pos) {
     }
 }
 
-module pot(pos) {
-    translate([pos.x,pos.y,-1]) {
-        cylinder(depth_total+2,d=pot_diameter);
-    }
-}
-
 module hole(pos) {
     translate([pos.x,pos.y,-1]) {
         cylinder(10,d=2.7);
@@ -106,10 +99,6 @@ module cutout() {
         translate([(-width/2)+1.7,4.5,12]) {
             cube([6,1,depth_total-depth_top-12]);
         }
-        translate([0,6,8]) {
-            cube([2,height_bottom-16,depth_total-depth_top-8]);
-            cube([width/2,2,depth_total-depth_top-8]);
-        }
     }
 }
 
@@ -120,7 +109,6 @@ difference() {
     led(led3_pos);
     button(button1_pos);
     button(button2_pos);
-    pot(pot_pos);
     hole(hole1_pos);
     hole(hole2_pos);
     cutout();
