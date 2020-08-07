@@ -1,5 +1,5 @@
 # +~+~+~ DXF2GCODE project file V1.2 ~+~+~+
-d2g.file = "side_cutout.dxf"
+d2g.file = "side_cutout_left.dxf"
 d2g.point_tol = 0.001
 d2g.fitting_tol = 0.001
 d2g.scale = 1.0
