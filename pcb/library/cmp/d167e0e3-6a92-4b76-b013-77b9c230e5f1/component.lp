@@ -6,6 +6,7 @@
  (version "0.2")
  (created 2015-03-01T20:00:00Z)
  (deprecated false)
+ (generated_by "")
  (category c011cc6b-b762-498e-8494-d1994f3043cf)
  (schematic_only false)
  (default_value "{{CAPACITANCE}}")

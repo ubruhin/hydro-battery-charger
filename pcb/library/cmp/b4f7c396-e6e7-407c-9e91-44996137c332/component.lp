@@ -6,6 +6,7 @@
  (version "0.2")
  (created 2015-03-04T21:27:40Z)
  (deprecated false)
+ (generated_by "")
  (category 4d1c95f4-2e60-4f50-a15b-ba9186a01b1a)
  (schematic_only false)
  (default_value "{{ZENER_VOLTAGE}}")

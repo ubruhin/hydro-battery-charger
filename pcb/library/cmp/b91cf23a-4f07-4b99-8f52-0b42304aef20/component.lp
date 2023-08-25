@@ -6,6 +6,7 @@
  (version "0.2")
  (created 2018-10-11T15:02:34Z)
  (deprecated false)
+ (generated_by "")
  (category 213bd44f-f375-41d8-8fdd-0652eb893e27)
  (schematic_only false)
  (default_value "Made With\nLibrePCB")

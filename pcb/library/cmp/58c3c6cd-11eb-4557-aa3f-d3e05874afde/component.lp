@@ -6,6 +6,7 @@
  (version "0.2")
  (created 2015-03-01T20:00:00Z)
  (deprecated false)
+ (generated_by "")
  (category adf8d941-787c-4b02-8772-fbc0a587463d)
  (schematic_only true)
  (default_value "VCC")

@@ -6,6 +6,7 @@
  (version "0.2")
  (created 2015-03-01T20:00:00Z)
  (deprecated false)
+ (generated_by "")
  (category b3adfa1e-b878-44f6-902a-14ef3dad7a14)
  (schematic_only false)
  (default_value "{{INDUCTANCE}}")

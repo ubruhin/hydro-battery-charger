@@ -9,6 +9,7 @@
  (version "0.2")
  (created 2015-03-01T20:00:00Z)
  (deprecated false)
+ (generated_by "")
  (category 1039f038-20a6-4bfe-89c1-99f34fbb45bd)
  (schematic_only false)
  (default_value "{{RESISTANCE}}")

@@ -6,6 +6,7 @@
  (version "0.2")
  (created 2018-10-10T22:14:10Z)
  (deprecated false)
+ (generated_by "")
  (category c3a8348e-f7a9-4607-8fe7-253076498ae2)
  (schematic_only false)
  (default_value "{{CURRENT_RATING}}")
